@@ -1,0 +1,7 @@
+task,model,top1_acc,top3_acc,macro_f1
+Style,ResNet18 (CNN),0.4733,0.7613,0.3585
+Style,ResNet18+GRU (CNN+RNN),0.396,0.67,0.241
+Artist,ResNet18 (CNN),0.814,0.9313,0.7909
+Artist,ResNet18+GRU (CNN+RNN),0.6387,0.8367,0.5953
+Genre,ResNet18 (CNN),0.7287,0.9287,0.6786
+Genre,ResNet18+GRU (CNN+RNN),0.6927,0.906,0.6195

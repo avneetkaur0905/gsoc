@@ -1,0 +1,2 @@
+attribute,model,train_size,val_size,best_val_acc,final_val_loss,epochs
+Style,ResNet18,5098,2046,0.47165200391006845,1.7100190217310849,2

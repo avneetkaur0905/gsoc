@@ -1,0 +1,17 @@
+Tasks for Prospective GSoC 2025 Applicants for the
+ArtExtract Projects @ HumanAI Umbrella Organization
+Below are the tasks that we will use to evaluate prospective students for the ArtExtract projects.
+Note: please work in your own github branch (i.e. NO PRs should be made). Send us a link to your code when you are finished and we will evaluate it.
+Note: We encourage you to upload the solutions on your github page and submit the github link to the solutions and your CV at least 1 week before the GSoC Proposal Submission deadline, or earlier, so that you have enough time to write the proposal.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+—-------------------------------------------------------------------------------------------------------------------
+Test Submission Instructions
+—--------------------------------------------------------------------------------------------------------------------
+Submission Instructions: Please send us your CV and a link to all your completed work (github repo, Jupyter notebook + pdf of Jupyter notebook with output) to human-ai@cern.ch with Evaluation Test: ArtExtract in the title.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Task 1: Convolutional-Recurrent Architectures
+Task: Build a model based on convolutional-recurrent architectures for classifying Style, Artist, Genre, and other attributes. General and Specific. Pick the most appropriate approach and discuss your strategy. Use the ArtGAN dataset: https://github.com/cs-chan/ArtGAN/blob/master/WikiArt%20Dataset/README.md
+Evaluation Metrics: discuss which evaluation metrics you are using to evaluate your model performance. Find outliers, e.g. paintings that do not fit a particular artist or genre despite their assignment.
+Task 2: Similarity
+Task: Build a model to find similarities in paintings, e.g. portraits with a similar face or pose.. Pick the most appropriate approach and discuss your strategy. Use the National Gallery Of Art open data set: https://github.com/NationalGalleryOfArt/opendata
+Evaluation Metrics: discuss which evaluation metrics you are using to evaluate your model performance.

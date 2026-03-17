@@ -1,0 +1,3 @@
+attribute,model,train_size,val_size,epochs,val_loss,val_acc
+Style,ResNet18,5098,2046,2,1.7100190217310849,0.47165200391006845
+Style,ResNet18 + GRU,5098,2046,2,1.9051022319849635,0.40615835777126097

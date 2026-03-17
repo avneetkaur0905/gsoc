@@ -1,0 +1,14 @@
+.DS_Store
+.ipynb_checkpoints/
+.jupyter/
+.jupyter_runtime/
+.venv*/
+__pycache__/
+*.pyc
+
+# Local datasets are too large for GitHub; keep only code, reports, notebooks, and small artifacts.
+datasets/
+
+# Jupyter metadata
+*/.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/

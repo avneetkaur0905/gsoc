@@ -1,0 +1,2 @@
+train_loss,train_acc,val_loss,val_acc,num_train_samples,num_val_samples,model
+0.6681581225395202,0.917,2.171198018391927,0.3433333333333333,1000,300,resnet18_baseline

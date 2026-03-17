@@ -1,0 +1,16 @@
+jupyterlab
+ipykernel
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pillow
+tqdm
+requests
+notebook
+timm
+torch
+torchvision
+faiss-cpu
+open_clip_torch
