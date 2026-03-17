@@ -1,13 +1,13 @@
 # ArtExtract GSoC Evaluation Submission
 
-This repository contains my completed submission for the ArtExtract prospective GSoC evaluation tasks described in [assignment.txt](/Users/avneet/project/assignment/assignment.txt).
+This repository contains my completed submission for the ArtExtract prospective GSoC evaluation tasks described in [assignment.txt](assignment.txt).
 
 ## Submission Contents
 
 ### Task 1: Convolutional-Recurrent Architectures
-- Final notebook: [notebooks/task1_final.ipynb](/Users/avneet/project/assignment/notebooks/task1_final.ipynb)
-- PDF export: [reports/task1_final.pdf](/Users/avneet/project/assignment/reports/task1_final.pdf)
-- Summary metrics: [reports/task1_all_results.csv](/Users/avneet/project/assignment/reports/task1_all_results.csv)
+- Final notebook: [notebooks/task1_final.ipynb](notebooks/task1_final.ipynb)
+- PDF export: [reports/task1_final.pdf](reports/task1_final.pdf)
+- Summary metrics: [reports/task1_all_results.csv](reports/task1_all_results.csv)
 
 Task 1 evaluates two architectures on the WikiArt dataset across three classification attributes:
 - Style
@@ -26,8 +26,8 @@ The notebook includes:
 - discussion of limitations and next steps
 
 ### Task 2: Similarity Retrieval
-- Final notebook: [notebooks/task2_final.ipynb](/Users/avneet/project/assignment/notebooks/task2_final.ipynb)
-- PDF export: [reports/task2_final.pdf](/Users/avneet/project/assignment/reports/task2_final.pdf)
+- Final notebook: [notebooks/task2_final.ipynb](notebooks/task2_final.ipynb)
+- PDF export: [reports/task2_final.pdf](reports/task2_final.pdf)
 
 Task 2 builds a similarity retrieval system for National Gallery of Art open-access paintings using:
 - ResNet-18 feature embeddings
@@ -39,17 +39,16 @@ Task 2 builds a similarity retrieval system for National Gallery of Art open-acc
 
 ## Repository Layout
 
-- [assignment.txt](/Users/avneet/project/assignment/assignment.txt): original task statement
-- [notebooks](/Users/avneet/project/assignment/notebooks): final submission notebooks
-- [reports](/Users/avneet/project/assignment/reports): exported PDFs, figures, and result tables
-- [artifacts](/Users/avneet/project/assignment/artifacts): trained checkpoints, embeddings, and intermediate outputs used by the notebooks
-- [eval_style.py](/Users/avneet/project/assignment/eval_style.py) and [retrain_style.py](/Users/avneet/project/assignment/retrain_style.py): supporting experiment scripts
-- [start_jupyter.command](/Users/avneet/project/assignment/start_jupyter.command): helper launcher for the project environment
+- [assignment.txt](assignment.txt): original task statement
+- [notebooks](notebooks): final submission notebooks
+- [reports](reports): exported PDFs, figures, and result tables
+- [artifacts](artifacts): trained checkpoints, embeddings, and intermediate outputs used by the notebooks
+- [start_jupyter.command](start_jupyter.command): helper launcher for the project environment
 
 ## Key Results
 
 ### Task 1
-From [reports/task1_all_results.csv](/Users/avneet/project/assignment/reports/task1_all_results.csv):
+From [reports/task1_all_results.csv](reports/task1_all_results.csv):
 
 | Task | Model | Top-1 | Top-3 | Macro F1 |
 |------|-------|-------|-------|----------|
@@ -77,12 +76,12 @@ This repository intentionally excludes the raw `datasets/` directory because the
 What evaluators can review directly in this repo:
 - the full final notebooks with outputs
 - exported PDF versions of both notebooks
-- generated figures and result tables in [reports](/Users/avneet/project/assignment/reports)
-- trained checkpoints and derived artifacts in [artifacts](/Users/avneet/project/assignment/artifacts)
+- generated figures and result tables in [reports](reports)
+- trained checkpoints and derived artifacts in [artifacts](artifacts)
 
 What is needed to rerun end-to-end:
 - the WikiArt / ArtGAN data referenced by Task 1
 - the National Gallery of Art open data referenced by Task 2
-- the Python dependencies in [requirements.txt](/Users/avneet/project/assignment/requirements.txt)
+- the Python dependencies in [requirements.txt](requirements.txt)
 
 In other words, the submission is fully reviewable from the committed outputs, while full reruns require the external datasets described in the original assignment.
