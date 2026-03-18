@@ -73,7 +73,7 @@ The final similarity notebook reports:
 
 This repository intentionally excludes the raw `datasets/` directory because the local datasets are too large for GitHub.
 
-What evaluators can review directly in this repo:
+What i am presenting for review in this repo:
 - the full final notebooks with outputs
 - exported PDF versions of both notebooks
 - generated figures and result tables in [reports](reports)
