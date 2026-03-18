@@ -83,5 +83,3 @@ What is needed to rerun end-to-end:
 - the WikiArt / ArtGAN data referenced by Task 1
 - the National Gallery of Art open data referenced by Task 2
 - the Python dependencies in [requirements.txt](requirements.txt)
-
-In other words, the submission is fully reviewable from the committed outputs, while full reruns require the external datasets described in the original assignment.
